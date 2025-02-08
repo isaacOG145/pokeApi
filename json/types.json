@@ -1,0 +1,185 @@
+[{
+    "english": "all",
+    "spanish": "Todos",
+    "iconURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/512px-Pok%C3%A9_Ball_icon.svg.png"
+},{
+    "english": "Normal",
+    "spanish": "Normal",
+    "chinese": "一般",
+    "japanese": "ノーマル",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/normal.svg",
+    "effective": [],
+    "ineffective": ["Rock", "Steel"],
+    "no_effect": ["Ghost"]
+},
+{
+    "english": "Fighting",
+    "spanish": "Lucha",
+    "chinese": "格斗",
+    "japanese": "かくとう",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/lucha.svg",
+    "effective": ["Normal", "Ice", "Rock", "Dark", "Steel"],
+    "ineffective": ["Poison", "Flying", "Psychic", "Bug", "Fairy"],
+    "no_effect": ["Ghost"]
+},
+{
+    "english": "Flying",
+    "spanish": "Volador",
+    "chinese": "飞行",
+    "japanese": "ひこう",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/volador.svg",
+    "effective": ["Grass", "Fighting", "Bug"],
+    "ineffective": ["Electric", "Rock", "Steel"],
+    "no_effect": []
+},
+{
+    "english": "Poison",
+    "spanish": "Veneno",
+    "chinese": "毒",
+    "japanese": "どく",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/veneno.svg",
+    "effective": ["Grass", "Fairy"],
+    "ineffective": ["Poison", "Ground", "Rock", "Ghost"],
+    "no_effect": ["Steel"]
+},
+{
+    "english": "Ground",
+    "spanish": "Tierra",
+    "chinese": "地上",
+    "japanese": "じめん",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/tierra.svg",
+    "effective": ["Fire", "Electric", "Poison", "Rock", "Steel"],
+    "ineffective": ["Grass", "Bug"],
+    "no_effect": ["Flying"]
+},
+{
+    "english": "Rock",
+    "spanish": "Roca",
+    "chinese": "岩石",
+    "japanese": "いわ",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/roca.svg",
+    "effective": ["Fire", "Ice", "Flying", "Bug"],
+    "ineffective": ["Fighting", "Ground", "Steel"],
+    "no_effect": []
+},
+{
+    "english": "Bug",
+    "spanish": "Bicho",
+    "chinese": "虫",
+    "japanese": "むし",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/bicho.svg",
+    "effective": ["Grass", "Psychic", "Dark"],
+    "ineffective": ["Fire", "Fighting", "Poison", "Flying", "Ghost", "Steel", "Fairy"],
+    "no_effect": []
+},
+{
+    "english": "Ghost",
+    "spanish": "Fantasma",
+    "chinese": "幽灵",
+    "japanese": "ゴースト",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/fantasma.svg",
+    "effective": ["Psychic", "Ghost"],
+    "ineffective": ["Dark"],
+    "no_effect": ["Normal"]
+},
+{
+    "english": "Steel",
+    "spanish": "Acero",
+    "chinese": "钢",
+    "japanese": "はがね",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/acero.svg",
+    "effective": ["Ice", "Rock", "Fairy"],
+    "ineffective": ["Fire", "Water", "Electric", "Steel"],
+    "no_effect": []
+},
+{
+    "english": "Fire",
+    "spanish": "Fuego",
+    "chinese": "炎",
+    "japanese": "ほのお",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/fuego.svg",
+    "effective": ["Grass", "Ice", "Bug", "Steel"],
+    "ineffective": ["Fire", "Water", "Rock", "Dragon"],
+    "no_effect": []
+},
+{
+    "english": "Water",
+    "spanish": "Agua",
+    "chinese": "水",
+    "japanese": "みず",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/agua.svg",
+    "effective": ["Fire", "Ground", "Rock"],
+    "ineffective": ["Water", "Grass", "Dragon"],
+    "no_effect": []
+},
+{
+    "english": "Grass",
+    "spanish": "Planta",
+    "chinese": "草",
+    "japanese": "くさ",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/planta.svg",
+    "effective": ["Water", "Ground", "Rock"],
+    "ineffective": ["Fire", "Grass", "Poison", "Flying", "Bug", "Dragon", "Steel"],
+    "no_effect": []
+},
+{
+    "english": "Electric",
+    "spanish": "Electrico",
+    "chinese": "电",
+    "japanese": "でんき",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/electrico.svg",
+    "effective": ["Water", "Flying"],
+    "ineffective": ["Electric", "Grass", "Dragon"],
+    "no_effect": ["Ground"]
+},
+{
+    "english": "Psychic",
+    "spanish": "Psiquíco",
+    "chinese": "超能",
+    "japanese": "エスパー",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/psiquico.svg",
+    "effective": ["Fighting", "Poison"],
+    "ineffective": ["Psychic", "Steel"],
+    "no_effect": ["Dark"]
+},
+{
+    "english": "Ice",
+    "spanish": "Hielo",
+    "chinese": "冰",
+    "japanese": "こおり",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/hielo.svg",
+    "effective": ["Grass", "Ground", "Flying", "Dragon"],
+    "ineffective": ["Fire", "Water", "Ice", "Steel"],
+    "no_effect": []
+},
+{
+    "english": "Dragon",
+    "spanish": "Dragon",
+    "chinese": "龙",
+    "japanese": "ドラゴン",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/dragon.svg",
+    "effective": ["Dragon"],
+    "ineffective": ["Steel"],
+    "no_effect": ["Fairy"]
+},
+{
+    "english": "Dark",
+    "spanish": "Siniestro",
+    "chinese": "恶",
+    "japanese": "あく",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/siniestro.svg",
+    "effective": ["Psychic", "Ghost"],
+    "ineffective": ["Fighting", "Dark", "Fairy"],
+    "no_effect": []
+},
+{
+    "english": "Fairy",
+    "spanish": "Hada",
+    "chinese": "妖精",
+    "japanese": "フェアリー",
+    "iconURL": "https://www.pokemoneros.com/assets/img/icons/tipos/hada.svg",
+    "effective": ["Fighting", "Dragon", "Dark"],
+    "ineffective": ["Fire", "Poison", "Steel"],
+    "no_effect": []
+}
+]

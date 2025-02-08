@@ -1,0 +1,29 @@
+h1{
+    color: #fff;
+}
+
+.pokeball{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+
+/* Asegúrate de que el bloque de la lista se quede pegado cuando hagas scroll */
+#list-block {
+    position: sticky;
+    top: 95px; /* Ajusta la distancia desde la parte superior cuando haga scroll */
+    z-index: 500; /* Asegúrate de que esté encima de otros elementos */
+    max-height: 80vh; /* Limita la altura del bloque para que no ocupe toda la pantalla */
+    overflow-y: auto; /* Permite el scroll dentro del bloque de la lista si es necesario */
+}

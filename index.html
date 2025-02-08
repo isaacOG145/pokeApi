@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Pokedex</title>
+</head>
+<body>
+
+    <main>
+        <header class="bg-dark row p-4 align-items-center" >
+            <div class="d-flex col-8">
+                <h1>PokeApi <img class="pokeball" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Pokebola-pokeball-png-0.png" alt=""></h1>
+            </div>
+            
+            <div class="col-4">
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar por nombre" aria-label="Search">
+                <button class="btn btn-outline-danger" type="submit">Buscar</button>
+            </form>
+            </div>
+        
+        </header>
+
+
+        <div class="row">
+            <div class="col-2 p-4" id="list-block">
+                <div class="card shadow">
+                    <div class="bg-dark card-header">
+                      <h3 class="text-warning text-center">Tipos</h3>
+                    </div>
+                    <ul class="list-group list-group-flush" id="type-list">
+                        
+                      <!-- Aqui aparecera la lista de tipos -->
+                    </ul>
+                  </div>
+            </div>
+            <div class="col-10 p-4">
+                <div>
+                    <h2>Pokedéx</h2>
+
+                    <!-- Aqui apareceran los pokemon -->
+                    <div class="row row-cols-4 g-4" id="pokemons">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
