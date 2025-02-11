@@ -67,7 +67,7 @@ const buildGrid = (filteredPokemons) => {
                                         Especie: ${poke.species}<br>
                                         Altura: ${poke.profile.height}<br>
                                         Peso: ${poke.profile.weight}<br>
-                                        <a href="#" class="btn btn-outline-warning mt-2">Ver más</a>      
+                                        <a href="../views/details.html?id=${poke.id}" class="btn btn-outline-warning mt-2">Ver más</a>      
                                     </p>
                                 </div>
                             </div>
